@@ -1,0 +1,80 @@
+.dt-layout-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .dt-length,
+  .dt-search,
+  .dt-info,
+  .dt-paging {
+    font-size: 1rem;
+    color: #5a5c69;
+  }
+  
+  .dt-input {
+    border: 1px solid #ddd ;
+    padding: 0.5rem ;
+    border-radius: 0.25rem;
+  }
+  
+  
+  /* TABLA */
+  .table-header-color {
+    background-color: #4e73df;
+    color: #ffff;
+  }
+  
+  
+  /* PAGINADO */
+  
+  .dt-paging {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .first,
+  .previous,
+  .current,
+  .next,
+  .last {
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 0.25rem;
+    background-color: #f3f4f6;
+    color: #374151;
+    border: 1px solid #ddd;
+  }
+  
+  .dt-paging-button:hover {
+    background-color: #e5e7eb;
+    border: 1px solid #ccc;
+  }
+  
+  .current {
+    background-color: #4e73df !important;
+    color: #fff;
+  }
+  
+  
+  /*=============== BREAKPOINTS ===============*/
+  @media screen and (max-width: 992px) {
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .dt-layout-row {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+  }
+  
